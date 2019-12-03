@@ -10,10 +10,8 @@ public class Animate implements Runnable {
 
     @Override
     public void run() {
-
         while(true){
             blockBreakerPanel.update();
-
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
