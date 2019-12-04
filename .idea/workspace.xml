@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90018805-b863-48bf-969d-62cabb944859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/Animate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/Animate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/Block.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/BlockBreakerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blockbreakergame/forms/BlockBreakerPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/PNG/59-Breakout-Tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/PNG/59-star-Tiles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/Animate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/Animate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/Block.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/BlockBreakerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/blockbreakergame/forms/BlockBreakerPanel.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,7 +119,7 @@
       <workItem from="1575038941878" duration="234000" />
       <workItem from="1575039211592" duration="881000" />
       <workItem from="1575045292621" duration="2550000" />
-      <workItem from="1575370603120" duration="17593000" />
+      <workItem from="1575370603120" duration="18487000" />
     </task>
     <servers />
   </component>

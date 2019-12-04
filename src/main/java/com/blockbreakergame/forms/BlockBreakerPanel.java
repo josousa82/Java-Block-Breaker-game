@@ -75,6 +75,12 @@ public class BlockBreakerPanel extends JPanel implements KeyListener {
 
         for(Block p : powerUp){
              p.y += 1;
+             if(p.intersects(paddle) && !p.destroyed){
+                 p.destroyed = true;
+                 if(ball.size() <= 4) {
+                     ball.add(new Block(paddle.dx + 75, 437, 25, 25, "/img/PNG/58-Ball-Tiles.png"));
+                 }
+             }
         }
 
         for(Block ba : ball){
@@ -111,7 +117,6 @@ public class BlockBreakerPanel extends JPanel implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        updateKey(e);
     }
 
     @Override
@@ -122,7 +127,7 @@ public class BlockBreakerPanel extends JPanel implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        updateKey(e);
+
 
     }
 
@@ -134,11 +139,11 @@ public class BlockBreakerPanel extends JPanel implements KeyListener {
         }
 
         if(ev.getKeyCode() == KeyEvent.VK_LEFT && paddle.x > 0 ){
-            paddle.x -= 10;
+            paddle.x -= 40;
         }
 
         if(ev.getKeyCode() == KeyEvent.VK_RIGHT && paddle.x <(getWidth() - paddle.width)){
-            paddle.x += 10;
+            paddle.x += 40;
         }
     }
 }
